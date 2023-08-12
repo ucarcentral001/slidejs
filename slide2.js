@@ -16,8 +16,10 @@ function changeSlide() {
     dot[i].classList.remove("active");
   }
   dot[index].classList.add("active");
+  
   index++;
-  setTimeout(changeSlide, 2000);
+  
+  setTimeout(changeSlide, 4000);
 }
 
 changeSlide();
