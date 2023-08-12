@@ -15,7 +15,6 @@ function changeSlide() {
     slides[i].style.display = "none";
     dot[i].classList.remove("active");
   }
-  dot[index].classList.add("active");
   
   index++;
   
