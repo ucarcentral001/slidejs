@@ -1,6 +1,5 @@
 var index = 0;
 var slides = document.querySelectorAll(".slides");
-var dot = document.querySelectorAll(".dot");
 
 function changeSlide() {
   if (index < 0) {
@@ -13,7 +12,6 @@ function changeSlide() {
 
   for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
-    dot[i].classList.remove("active");
   }
   
   index++;
